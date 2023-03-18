@@ -1,12 +1,19 @@
 .body{
-  background-color: black;
-  color: aliceblue;
+
+  color: white;
+  margin: -20px;
+  position:fixed;
+}
+nav{
+  background: none;
 }
 #navbar {
-  background-color:white;
-  padding: 30px;
+  background-color: none;
+  padding: 0px;
   float: right;
+  margin: 20px;
   font-size: larger;
+  
   
 }
 
@@ -15,7 +22,7 @@
   margin: 0;
   padding: 0;
   display: flex;
-  color: aliceblue;
+ 
   
 }
 
@@ -30,6 +37,18 @@
 }
 
 #navbar a:hover {
-  background-color: blue;
-  color: white;
+  background-color: transparent;
+  color: #0ab0da;;
 }
+#home{
+  margin: -10px;
+}
+#home video {
+    max-width: 100%;
+    max-height: 25%;
+    margin: -10px -10px;
+    
+    
+  }
+
+
